@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="general.css" />
+    <link rel="stylesheet" href="query.css" />
+    <title>Longtumdo &mdash; ลองทำเว็บจากคนที่เรียนรู้ด้วยตัวเอง</title>
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <section class="section-hero" id="top-page">
+      <header class="header">
+        <a href="#">
+          <img class="logo" src="image/longtumdo_complete.png" alt="" />
+        </a>
+
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li>
+              <a href="javascript:scroll_aboutme();" class="main-nav-link"
+                >About Me</a
+              >
+            </li>
+            <li>
+              <a href="javascript:scroll_skill();" class="main-nav-link"
+                >My Skill</a
+              >
+            </li>
+            <li>
+              <a href="javascript:scroll_work();" class="main-nav-link"
+                >Work Experience</a
+              >
+            </li>
+            <li>
+              <a href="javascript:scroll_education();" class="main-nav-link"
+                >Education</a
+              >
+            </li>
+            <li>
+              <a href="javascript:scroll_portfolio();" class="main-nav-link"
+                >portfolio</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <button class="btn-mobile-nav">
+          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+          <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
+      </header>
+      <div class="hero">
+        <p class="hero-header--title">
+          <span id="aunnop">AUNNOP</span>
+          <span id="ninbai">NINBAI</span>
+        </p>
+        <p class="hero-header--subtitle">
+          Made by someone who has never built a website before.
+        </p>
+        <p class="hero-header--text">
+          เว็บ PORTFOLIO สะสมผลงานจากการเรียนรู้ด้วยตัวเอง
+        </p>
+      </div>
+    </section>
+
+    <main>
+      <!-- About me Section -->
+      <section class="section-aboutme">
+        <div class="container">
+          <div class="heading">
+            <p class="primary-style center-text" id="about-me">ABOUT ME</p>
+          </div>
+
+          <div class="aboutme-intro">
+            <div class="img-me">
+              <img
+                class="my-img"
+                src="image/me2.jpg"
+                alt="A man in blue wearing glasses looks at something. And this guy is me"
+              />
+            </div>
+            <div class="aboutme-des">
+              <p class="my-name">อรรนพ นิลใบ</p>
+              <p class="my-status">นักศึกษาจบใหม่ | NEW GRADUATE</p>
+              <p class="my-description">
+                ผมเป็นนักศึกษาจบใหม่ที่ไม่มีความรู้เกี่ยวกับเว็บเลย
+                และเว็บนี้ก็สร้างขึ้นมาเพื่อศึกษาเกี่ยวกับการสร้างเว็บไซต์
+                และเป็นเว็บแรกที่ผมได้สร้างขึ้นมา และอยากจะเรียนรู้อื่น ๆ
+                อีกเกี่ยวกับการสร้างเว็บ
+                เป็นเว็บที่สร้างขึ้นเก็บผลงานของผมนั้นเองครับ
+              </p>
+              <div class="aboutme-des-info">
+                <p>ชื่อเล่น: นุ</p>
+                <p>อายุ: 23 ปี</p>
+                <p>อีเมล: aunnop2541@gmail.com</p>
+                <p>ที่อยู่: ประเทศไทย, กรุงเทพ</p>
+              </div>
+              <div class="social-container">
+                <h2 class="center-text">โซเชียลมีเดีย</h2>
+                <div class="social-icons">
+                  <div class="social-icon-container">
+                    <a href="https://www.facebook.com/nuh.jun" target="_blank"
+                      ><ion-icon
+                        name="logo-facebook"
+                        class="social-icon"
+                      ></ion-icon
+                    ></a>
+                    <p>Facebook</p>
+                  </div>
+                  <div class="social-icon-container">
+                    <a
+                      href="https://www.instagram.com/aunnop_nin/"
+                      target="_blank"
+                      ><ion-icon
+                        name="logo-instagram"
+                        class="social-icon"
+                      ></ion-icon
+                    ></a>
+                    <p>Instagram</p>
+                  </div>
+                  <div class="social-icon-container">
+                    <a
+                      href="https://www.linkedin.com/in/aunnop-ninbai-7a7a31156/"
+                      target="_blank"
+                      ><ion-icon
+                        name="logo-linkedin"
+                        class="social-icon"
+                      ></ion-icon
+                    ></a>
+                    <p>LinkedIn</p>
+                  </div>
+                  <div class="social-icon-container">
+                    <a href="https://github.com/Aunnop1998" target="_blank"
+                      ><ion-icon
+                        name="logo-github"
+                        class="social-icon"
+                      ></ion-icon
+                    ></a>
+                    <p>GitHub</p>
+                  </div>
+                </div>
+              </div>
+              <div class="button-container">
+                <a
+                  href="https://drive.google.com/drive/folders/1FittVIjOrJS2FD-MTgOgG7DhQdeJAS7p?usp=sharing"
+                  class="button-resume"
+                  target="_blank"
+                  >ดาวน์โหลดเรซู่เม่</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- my skills Section -->
+      <section class="section-skills" id="skill">
+        <div class="skills-container">
+          <div class="container">
+            <div class="heading">
+              <p class="primary-style center-text">MY SKILLS</p>
+            </div>
+            <div class="skills-element-container">
+              <div class="skill-element">
+                <div class="circle-skill" style="--value: 88"></div>
+                <p class="skill-font">HTML/CSS</p>
+              </div>
+              <!-- JAVASCRIP SKILL -->
+              <div class="skill-element">
+                <div class="circle-skill" style="--value: 65"></div>
+                <p class="skill-font">JAVASCRIPT</p>
+              </div>
+              <!-- PHP AND PHPMYADMINSKILL -->
+              <div class="skill-element">
+                <div class="circle-skill" style="--value: 48"></div>
+                <p class="skill-font">PHP</p>
+              </div>
+              <!-- SQL SKILL -->
+              <div class="skill-element">
+                <div class="circle-skill" style="--value: 70"></div>
+                <p class="skill-font">SQL</p>
+              </div>
+              <!-- PROGRAMING LOGIC SKILL -->
+              <div class="skill-element">
+                <div class="circle-skill" style="--value: 75"></div>
+                <p class="skill-font">PROGRAMING LOGIC</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Work experience Section-->
+      <section class="work-section" id="work">
+        <div class="container">
+          <div class="heading">
+            <p class="primary-style center-text">WORK EXPERIENCE</p>
+          </div>
+          <!-- Thana  -->
+          <div class="intern-container">
+            <div class="intern-year">
+              <p>ม.ค 2020 - ก.ค. 2020</p>
+            </div>
+            <div class="intern-information">
+              <div class="intern-info-container">
+                <p class="intern-title">
+                  บริษัท ธนาซอร์สซิ่ง โพรเฟสชั่นนอล จำกัด
+                </p>
+                <p class="intern-position">นักศึกษาฝึกงาน | IT Support</p>
+                <p class="intern-details">
+                  ทำหน้าที่ IT support ช่วยดูแลทำความสะอาดคอมพิวเตอร์ของบริษัท
+                  ค่อยลงระบบปฏิบัติการให้คอมพิวเตอร์และโปรแกรมต่าง ๆ
+                  ที่จำเป็นกับบริษัท
+                  และช่วยให้คำปรึกษาด้านการทำเว็บไซต์กับบริษัทรวมไปถึงดูแลและติดตั้ง
+                  video conference หรือติดตั้งอินเตอร์เน็ตภายในบริษัท
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Thai Pa  -->
+          <div class="intern-container">
+            <div class="intern-year">
+              <p>เม.ย. 2018 - ต.ค. 2018</p>
+            </div>
+            <div class="intern-information">
+              <div class="intern-info-container">
+                <p class="intern-title">ธนาคารไทยพาณิชย์ (สำนักงานใหญ่)</p>
+                <p class="intern-position">นักศึกษาฝึกงาน | ผู้ช่วยเทสเตอร์</p>
+                <p class="intern-details">
+                  เป็นการเทสแบบ Manual โดยรับ Test case มาจาก พี่ ๆ
+                  เทสระบบตู้ATM/CDMและส่งมอบผลว่าตรงตามในใบtest case หรือไม่
+                  โดยจะเก็บผลด้วยการถ่ายรูปหน้าจอของ ตู้ ATM
+                  คอยสังเกตุหรือเทสนอกเหนือจากในใบtest case
+                  เพื่อให้ตู้ATMนั้นสมบูรณ์พร้อมใช้งานมากที่สุด
+                  เช่นทดสอบการกดเงินโดยไม่ใช้บัตรผ่านตู้ATMด้วยจำนวนเงิน
+                  1,200บาท
+                  ตามผลควรจะทำรายการสำเร็จแต่พอลองเปลี่ยนภาษาของตู้กลับทำรายการไม่ได้
+                  กรณีทดสอบไม่ผ่านจะทำการถ่ายรูปหน้าจอ ATM พร้อมทำเขียนข้อความ
+                  แล้วแจ้งผลกลับไป
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education Section -->
+      <section class="education-section" id="education">
+        <div class="container">
+          <div class="heading">
+            <p class="primary-style center-text">EDUCATION</p>
+          </div>
+          <!-- Sripatum -->
+          <div class="intern-container">
+            <div class="intern-year">
+              <p>2021</p>
+            </div>
+            <div class="study-information">
+              <div class="study-info-container">
+                <p class="intern-title">มหาวิทยาลัยศรีปทุม</p>
+                <p class="study-status">วุฒิการศึกษา : ปริญญาตรี</p>
+                <p class="study-status">คณะวิชา : เทคโนโลยีสารสนเทศ</p>
+                <p class="study-status">
+                  สาขา : เทคโนโลยีสารสนเทศและการสื่อสาร
+                </p>
+                <p class="study-status">เกรด : 3.75</p>
+              </div>
+            </div>
+          </div>
+          <!-- TBC -->
+          <div class="intern-container">
+            <div class="intern-year">
+              <p>2019</p>
+            </div>
+            <div class="study-information">
+              <div class="study-info-container">
+                <p class="intern-title">วิทยาลัยเทคโนโลยีไทยบริหารธุรกิจ</p>
+                <p class="study-status">วุฒิการศึกษา : ปวส.</p>
+                <p class="study-status">คณะวิชา : คอมพิวเตอร์ธุรกิจ</p>
+                <p class="study-status">เกรด : 3.54</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Portfolio Section -->
+      <section class="portfolio-section" id="portfolio">
+        <div class="heading">
+          <p class="primary-style center-text">PORTFOLIO</p>
+        </div>
+        <div class="portfolio-container">
+          <!-- Item 1 -->
+          <figure class="portfolio-item">
+            <img src="image/todolist.jpg" />
+            <div class="image--overlay blur">
+              <div class="image--title">
+                <a
+                  href="https://aunnop1998.github.io/Simple-countdown-date/"
+                  target="_blank"
+                  >To do List</a
+                >
+              </div>
+              <div class="image--description--container">
+                <p class="image--description good">
+                  + บันทึกสิ่งที่ต้องทำระหว่างวัน
+                </p>
+                <p class="image--description good">+ บันทึกผลลัพธ์</p>
+                <p class="image--description good">+ ลบข้อสิ่งที่บันทึกได้</p>
+                <p class="image--description bad">
+                  - ยังไม่รองรับ responsive(working..)
+                </p>
+              </div>
+            </div>
+          </figure>
+          <!-- Item 2 -->
+          <figure class="portfolio-item">
+            <img class="image--img" src="image/countdown.jpg" alt="" />
+            <div class="image--overlay blur">
+              <div class="image--title">
+                <a
+                  href="https://aunnop1998.github.io/Simple-countdown-date/"
+                  target="_blank"
+                  >Count down</a
+                >
+              </div>
+              <div class="image--description--container">
+                <p class="image--description good">
+                  + โปรแกรมนับถอยหลังจากวันที่เลือก
+                </p>
+                <p class="image--description good">+ บันทึกผลลัพธ์</p>
+                <p class="image--description good">+ เลือกวันที่ได้อิสระ</p>
+                <p class="image--description bad">
+                  - ยังไม่รองรับ responsive(working..)
+                </p>
+              </div>
+            </div>
+          </figure>
+          <!-- Item 3 -->
+          <figure class="portfolio-item">
+            <img src="image/counter.jpg" alt="" />
+            <div class="image--overlay blur">
+              <div class="image--title">
+                <a
+                  href="https://aunnop1998.github.io/Simple-Counter/"
+                  target="_blank"
+                  >Counter</a
+                >
+              </div>
+              <div class="image--description--container">
+                <p class="image--description good">+ โปรแกรมนับจำนวน</p>
+                <p class="image--description good">+ เพิ่ม ลด จำนวนได้</p>
+                <p class="image--description good">+ มีสีตัวอักษรเฉพาะ</p>
+                <p class="image--description bad">
+                  - ยังไม่รองรับ responsive(working..)
+                </p>
+              </div>
+            </div>
+          </figure>
+          <!-- Item 4 -->
+          <figure class="portfolio-item">
+            <img src="image/landing_page.jpg" alt="" />
+            <div class="image--overlay blur">
+              <div class="image--title">
+                <a
+                  href="https://aunnop1998.github.io/Landing-page-practice-responsive-/"
+                  target="_blank"
+                  >Landing_page</a
+                >
+              </div>
+              <div class="image--description--container">
+                <p class="image--description good">+ หน้าจอโฆษณาสินค้า</p>
+                <p class="image--description good">
+                  + ใช้เฟรมเวิร์ค Boostrap 5
+                </p>
+                <p class="image--description good">+ รองรับ responsive</p>
+              </div>
+            </div>
+          </figure>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer" id="footer">
+      <div class="container">
+        <div class="footer-social-container">
+          <div class="footer-social-icons">
+            <div class="social-icon-container">
+              <a href="https://www.facebook.com/nuh.jun" target="_blank"
+                ><ion-icon name="logo-facebook" class="social-icon"></ion-icon
+              ></a>
+            </div>
+            <div class="social-icon-container">
+              <a href="https://www.instagram.com/aunnop_nin/" target="_blank"
+                ><ion-icon name="logo-instagram" class="social-icon"></ion-icon
+              ></a>
+            </div>
+            <div class="social-icon-container">
+              <a
+                href="https://www.linkedin.com/in/aunnop-ninbai-7a7a31156/"
+                target="_blank"
+                ><ion-icon name="logo-linkedin" class="social-icon"></ion-icon
+              ></a>
+            </div>
+            <div class="social-icon-container">
+              <a href="https://github.com/Aunnop1998" target="_blank"
+                ><ion-icon name="logo-github" class="social-icon"></ion-icon
+              ></a>
+            </div>
+          </div>
+        </div>
+        <p class="footer-title">AUNNOP NINBAI</p>
+        <p class="footer-copy-right">
+          <span>&copy;</span> 2022. Create by aunnop. All Rights Reserved.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Up to the top of the page -->
+    <a href="javascript:top_page();" class="float"
+      ><ion-icon name="arrow-up-outline"></ion-icon
+    ></a>
+
+    <!-- SCRIPT -->
+    <!-- Ionicons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
